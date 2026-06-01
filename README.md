@@ -1,16 +1,21 @@
 ﻿# Android OCR Explain SDK
 
+## 📦 Registry & Repository
+
+- **Maven Central**: [io.github.amitgaikwad2837:android-ocr-explain-sdk](https://central.sonatype.com/artifact/io.github.amitgaikwad2837/android-ocr-explain-sdk)
+- **GitHub**: [amitgaikwad2837/android-ocr-explain-sdk](https://github.com/amitgaikwad2837/android-ocr-explain-sdk)
+
 ## Overview
 
-OCR extraction and AI-powered explanation for documents and images
+Extract and explain text from documents and images using OCR and AI-powered analysis. Performs real-time text extraction from camera feeds or images, then provides contextual explanations for accessibility and comprehension.
 
 ## Installation
 
-Add the Maven dependency once artifacts are published:
+Add the Maven dependency:
 
 ~~~kotlin
 dependencies {
-  implementation("io.github.amitgaikwad2837:android-ocr-explain-sdk:1.0.0")
+  implementation("io.github.amitgaikwad2837:android-ocr-explain-sdk:0.0.9")
 }
 ~~~
 
