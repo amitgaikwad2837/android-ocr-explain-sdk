@@ -36,6 +36,7 @@ class OCRExplainSDKTest {
             type = "PERSON",
             value = "John Doe",
             confidence = 0.95f
+        )
         
         assertEquals("PERSON", entity.type)
         assertEquals("John Doe", entity.value)
