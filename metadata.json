@@ -1,0 +1,30 @@
+{
+  "name": "android-ocr-explain-sdk",
+  "version": "1.0.0",
+  "description": "OCR extraction and AI-powered explanation for documents and images",
+  "platform": "android",
+  "category": "intelligence-productivity",
+  "minSdk": 24,
+  "targetSdk": 34,
+  "language": "kotlin",
+  "buildSystem": "gradle",
+  "features": [
+    "ocr-extraction",
+    "text-cleanup",
+    "structured-data-extraction",
+    "ai-summarization",
+    "ai-explanation",
+    "multi-language-support"
+  ],
+  "aiProviders": [
+    "openai",
+    "gemini",
+    "anthropic"
+  ],
+  "permissions": [
+    "CAMERA",
+    "READ_EXTERNAL_STORAGE",
+    "INTERNET"
+  ],
+  "tags": ["android", "ocr", "document-analysis", "ai-integration"]
+}
